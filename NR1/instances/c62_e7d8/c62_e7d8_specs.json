@@ -1,0 +1,141 @@
+{
+    "nameTsplib": "c62_e7d8",
+    "description": "",
+    "nameSpecsSkeleton": "s_gen_NR1",
+    "numItems": 0,
+    "numOrders": 27,
+    "percDuplicates": 0,
+    "itemsPerBoxLow": 1,
+    "itemsPerBoxHigh": 3,
+    "dynamicity": {
+        "numTimeSteps": 2,
+        "percDynamic": 10
+    },
+    "mapXyHighs": [
+        80,
+        80
+    ],
+    "depotSection": {
+        "0": [
+            70,
+            70
+        ],
+        "1": [
+            70,
+            50
+        ]
+    },
+    "numSlottingZones": 3,
+    "numVehicles": 5,
+    "numItemsToMove": 0,
+    "obstaclesType": "NR1",
+    "randomSeed": 845784,
+    "min_dist_to_slotting_zone": 30,
+    "mobileUnitCapacities": {
+        "numOrders": 6,
+        "weight": null,
+        "volume": null
+    },
+    "requestType": "storageassignment",
+    "optimizerUsed": null,
+    "path_local": "./benchmarking/tsplibfiles/1_1v4/NR1/",
+    "path_gui_test": "./gui-test/NR1/BO_jsons/optim/",
+    "possibleVisitLocs": null,
+    "slottingZones": [
+        {
+            "xrange": null,
+            "yrange": null,
+            "mid_point": [
+                30,
+                20
+            ],
+            "SKUs": [
+                "2",
+                "3",
+                "4",
+                "8",
+                "9",
+                "10",
+                "17",
+                "18",
+                "23",
+                "24",
+                "25",
+                "32",
+                "33",
+                "39",
+                "40",
+                "41",
+                "44",
+                "45",
+                "46",
+                "52",
+                "53",
+                "60"
+            ],
+            "num_SKUs": 0
+        },
+        {
+            "xrange": null,
+            "yrange": null,
+            "mid_point": [
+                70,
+                40
+            ],
+            "SKUs": [
+                "5",
+                "11",
+                "12",
+                "13",
+                "19",
+                "20",
+                "21",
+                "26",
+                "27",
+                "28",
+                "34",
+                "35",
+                "42",
+                "47",
+                "48",
+                "49",
+                "54",
+                "55",
+                "56",
+                "61"
+            ],
+            "num_SKUs": 0
+        },
+        {
+            "xrange": null,
+            "yrange": null,
+            "mid_point": [
+                30,
+                60
+            ],
+            "SKUs": [
+                "6",
+                "7",
+                "14",
+                "15",
+                "16",
+                "22",
+                "29",
+                "30",
+                "31",
+                "36",
+                "37",
+                "38",
+                "43",
+                "50",
+                "51",
+                "57",
+                "58",
+                "59",
+                "62",
+                "63"
+            ],
+            "num_SKUs": 0
+        }
+    ]
+}

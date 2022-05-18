@@ -1,0 +1,91 @@
+{
+    "nameTsplib": "c12_8d8f",
+    "description": "",
+    "nameSpecsSkeleton": "s_gen_SingleRack",
+    "numItems": 0,
+    "numOrders": 7,
+    "percDuplicates": 0,
+    "itemsPerBoxLow": 1,
+    "itemsPerBoxHigh": 3,
+    "dynamicity": {
+        "numTimeSteps": 2,
+        "percDynamic": 10
+    },
+    "mapXyHighs": [
+        80,
+        80
+    ],
+    "depotSection": {
+        "0": [
+            5,
+            20
+        ],
+        "1": [
+            5,
+            60
+        ]
+    },
+    "numSlottingZones": 3,
+    "numVehicles": 2,
+    "numItemsToMove": 0,
+    "obstaclesType": "SingleRack",
+    "randomSeed": 626063,
+    "min_dist_to_slotting_zone": 30,
+    "mobileUnitCapacities": {
+        "numOrders": 4,
+        "weight": null,
+        "volume": null
+    },
+    "requestType": "storageassignment",
+    "optimizerUsed": null,
+    "path_local": "./benchmarking/tsplibfiles/1_1v4/SingleRack/",
+    "path_gui_test": "./gui-test/SingleRack/BO_jsons/optim/",
+    "possibleVisitLocs": 500,
+    "slottingZones": [
+        {
+            "xrange": null,
+            "yrange": null,
+            "mid_point": [
+                30,
+                20
+            ],
+            "SKUs": [
+                "2",
+                "7",
+                "13"
+            ],
+            "num_SKUs": 0
+        },
+        {
+            "xrange": null,
+            "yrange": null,
+            "mid_point": [
+                70,
+                40
+            ],
+            "SKUs": [
+                "3",
+                "4",
+                "8",
+                "9",
+                "10"
+            ],
+            "num_SKUs": 0
+        },
+        {
+            "xrange": null,
+            "yrange": null,
+            "mid_point": [
+                30,
+                60
+            ],
+            "SKUs": [
+                "5",
+                "6",
+                "11",
+                "12"
+            ],
+            "num_SKUs": 0
+        }
+    ]
+}

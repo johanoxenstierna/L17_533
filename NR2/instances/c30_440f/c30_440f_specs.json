@@ -1,0 +1,109 @@
+{
+    "nameTsplib": "c30_440f",
+    "description": "",
+    "nameSpecsSkeleton": "s_gen_NR2",
+    "numItems": 0,
+    "numOrders": 20,
+    "percDuplicates": 0,
+    "itemsPerBoxLow": 1,
+    "itemsPerBoxHigh": 2,
+    "dynamicity": {
+        "numTimeSteps": 2,
+        "percDynamic": 10
+    },
+    "mapXyHighs": [
+        80,
+        80
+    ],
+    "depotSection": {
+        "0": [
+            10,
+            10
+        ],
+        "1": [
+            5,
+            30
+        ]
+    },
+    "numSlottingZones": 3,
+    "numVehicles": 3,
+    "numItemsToMove": 0,
+    "obstaclesType": "NR2",
+    "randomSeed": 869391,
+    "min_dist_to_slotting_zone": 30,
+    "mobileUnitCapacities": {
+        "numOrders": 8,
+        "weight": null,
+        "volume": null
+    },
+    "requestType": "storageassignment",
+    "optimizerUsed": null,
+    "path_local": "./benchmarking/tsplibfiles/1_1v4/NR2/",
+    "path_gui_test": "./gui-test/NR2/BO_jsons/optim/",
+    "possibleVisitLocs": 500,
+    "slottingZones": [
+        {
+            "xrange": null,
+            "yrange": null,
+            "mid_point": [
+                30,
+                20
+            ],
+            "SKUs": [
+                "2",
+                "3",
+                "7",
+                "11",
+                "12",
+                "17",
+                "18",
+                "21",
+                "24",
+                "25",
+                "29"
+            ],
+            "num_SKUs": 0
+        },
+        {
+            "xrange": null,
+            "yrange": null,
+            "mid_point": [
+                70,
+                40
+            ],
+            "SKUs": [
+                "4",
+                "8",
+                "13",
+                "14",
+                "19",
+                "22",
+                "26",
+                "30",
+                "31"
+            ],
+            "num_SKUs": 0
+        },
+        {
+            "xrange": null,
+            "yrange": null,
+            "mid_point": [
+                30,
+                60
+            ],
+            "SKUs": [
+                "5",
+                "6",
+                "9",
+                "10",
+                "15",
+                "16",
+                "20",
+                "23",
+                "27",
+                "28"
+            ],
+            "num_SKUs": 0
+        }
+    ]
+}

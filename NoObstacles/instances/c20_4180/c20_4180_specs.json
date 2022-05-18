@@ -1,0 +1,114 @@
+{
+    "nameTsplib": "c20_4180",
+    "description": "",
+    "nameSpecsSkeleton": "s_gen_NoObstacles",
+    "numItems": 0,
+    "numOrders": 10,
+    "percDuplicates": 0,
+    "itemsPerBoxLow": 2,
+    "itemsPerBoxHigh": 2,
+    "dynamicity": {
+        "numTimeSteps": 2,
+        "percDynamic": 10
+    },
+    "mapXyHighs": [
+        80,
+        80
+    ],
+    "depotSection": {
+        "0": [
+            20,
+            5
+        ],
+        "1": [
+            50,
+            5
+        ]
+    },
+    "numSlottingZones": 3,
+    "numVehicles": 3,
+    "numItemsToMove": 0,
+    "obstaclesType": "NoObstacles",
+    "randomSeed": 344448,
+    "min_dist_to_slotting_zone": 30,
+    "mobileUnitCapacities": {
+        "numOrders": 4,
+        "weight": null,
+        "volume": null
+    },
+    "requestType": "storageassignment",
+    "optimizerUsed": null,
+    "path_local": "./benchmarking/tsplibfiles/1_1v4/NoObstacles/",
+    "path_gui_test": "./gui-test/NoObstacles/BO_jsons/optim/",
+    "possibleVisitLocs": 500,
+    "slottingZones": [
+        {
+            "xrange": [
+                0,
+                69
+            ],
+            "yrange": [
+                0,
+                59
+            ],
+            "mid_point": [
+                32,
+                21
+            ],
+            "SKUs": [
+                "2",
+                "3",
+                "8",
+                "9",
+                "14",
+                "15",
+                "20",
+                "21"
+            ],
+            "num_SKUs": 0
+        },
+        {
+            "xrange": [
+                20,
+                75
+            ],
+            "yrange": [
+                5,
+                80
+            ],
+            "mid_point": [
+                70,
+                30
+            ],
+            "SKUs": [
+                "4",
+                "5",
+                "10",
+                "11",
+                "16",
+                "17"
+            ],
+            "num_SKUs": 0
+        },
+        {
+            "xrange": null,
+            "yrange": [
+                5,
+                80
+            ],
+            "mid_point": [
+                40,
+                70
+            ],
+            "SKUs": [
+                "6",
+                "7",
+                "12",
+                "13",
+                "18",
+                "19"
+            ],
+            "num_SKUs": 0
+        }
+    ]
+}

@@ -1,0 +1,153 @@
+{
+    "nameTsplib": "c74_4e83",
+    "description": "",
+    "nameSpecsSkeleton": "s_gen_NR2",
+    "numItems": 0,
+    "numOrders": 19,
+    "percDuplicates": 0,
+    "itemsPerBoxLow": 1,
+    "itemsPerBoxHigh": 7,
+    "dynamicity": {
+        "numTimeSteps": 2,
+        "percDynamic": 10
+    },
+    "mapXyHighs": [
+        80,
+        80
+    ],
+    "depotSection": {
+        "0": [
+            10,
+            10
+        ],
+        "1": [
+            5,
+            30
+        ]
+    },
+    "numSlottingZones": 3,
+    "numVehicles": 3,
+    "numItemsToMove": 0,
+    "obstaclesType": "NR2",
+    "randomSeed": 806531,
+    "min_dist_to_slotting_zone": 30,
+    "mobileUnitCapacities": {
+        "numOrders": 8,
+        "weight": null,
+        "volume": null
+    },
+    "requestType": "storageassignment",
+    "optimizerUsed": null,
+    "path_local": "./benchmarking/tsplibfiles/1_1v4/NR2/",
+    "path_gui_test": "./gui-test/NR2/BO_jsons/optim/",
+    "possibleVisitLocs": 500,
+    "slottingZones": [
+        {
+            "xrange": null,
+            "yrange": null,
+            "mid_point": [
+                30,
+                20
+            ],
+            "SKUs": [
+                "2",
+                "3",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "22",
+                "23",
+                "34",
+                "35",
+                "36",
+                "37",
+                "38",
+                "43",
+                "44",
+                "45",
+                "46",
+                "55",
+                "56",
+                "57",
+                "58",
+                "59",
+                "71",
+                "72",
+                "73",
+                "74",
+                "75"
+            ],
+            "num_SKUs": 0
+        },
+        {
+            "xrange": null,
+            "yrange": null,
+            "mid_point": [
+                70,
+                40
+            ],
+            "SKUs": [
+                "4",
+                "5",
+                "6",
+                "15",
+                "24",
+                "25",
+                "26",
+                "39",
+                "47",
+                "48",
+                "49",
+                "50",
+                "51",
+                "52",
+                "60",
+                "61",
+                "62",
+                "63",
+                "64"
+            ],
+            "num_SKUs": 0
+        },
+        {
+            "xrange": null,
+            "yrange": null,
+            "mid_point": [
+                30,
+                60
+            ],
+            "SKUs": [
+                "7",
+                "8",
+                "9",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "27",
+                "28",
+                "29",
+                "30",
+                "31",
+                "32",
+                "33",
+                "40",
+                "41",
+                "42",
+                "53",
+                "54",
+                "65",
+                "66",
+                "67",
+                "68",
+                "69",
+                "70"
+            ],
+            "num_SKUs": 0
+        }
+    ]
+}

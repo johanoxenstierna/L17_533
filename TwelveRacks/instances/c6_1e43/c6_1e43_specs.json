@@ -1,0 +1,85 @@
+{
+    "nameTsplib": "c6_1e43",
+    "description": "",
+    "nameSpecsSkeleton": "s_gen_TwelveRacks",
+    "numItems": 0,
+    "numOrders": 5,
+    "percDuplicates": 0,
+    "itemsPerBoxLow": 1,
+    "itemsPerBoxHigh": 2,
+    "dynamicity": {
+        "numTimeSteps": 2,
+        "percDynamic": 10
+    },
+    "mapXyHighs": [
+        80,
+        80
+    ],
+    "depotSection": {
+        "0": [
+            35,
+            30
+        ],
+        "1": [
+            45,
+            50
+        ]
+    },
+    "numSlottingZones": 3,
+    "numVehicles": 1,
+    "numItemsToMove": 0,
+    "obstaclesType": "TwelveRacks",
+    "randomSeed": 532035,
+    "min_dist_to_slotting_zone": 30,
+    "mobileUnitCapacities": {
+        "numOrders": 7,
+        "weight": null,
+        "volume": null
+    },
+    "requestType": "storageassignment",
+    "optimizerUsed": null,
+    "path_local": "./benchmarking/tsplibfiles/1_1v4/TwelveRacks/",
+    "path_gui_test": "./gui-test/TwelveRacks/BO_jsons/optim/",
+    "possibleVisitLocs": 500,
+    "slottingZones": [
+        {
+            "xrange": null,
+            "yrange": null,
+            "mid_point": [
+                30,
+                20
+            ],
+            "SKUs": [
+                "2",
+                "3",
+                "6"
+            ],
+            "num_SKUs": 0
+        },
+        {
+            "xrange": null,
+            "yrange": null,
+            "mid_point": [
+                70,
+                40
+            ],
+            "SKUs": [
+                "4",
+                "7"
+            ],
+            "num_SKUs": 0
+        },
+        {
+            "xrange": null,
+            "yrange": null,
+            "mid_point": [
+                30,
+                60
+            ],
+            "SKUs": [
+                "5"
+            ],
+            "num_SKUs": 0
+        }
+    ]
+}

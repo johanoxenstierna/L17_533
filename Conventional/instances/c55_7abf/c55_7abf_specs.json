@@ -1,0 +1,135 @@
+{
+    "nameTsplib": "c55_7abf",
+    "description": "",
+    "nameSpecsSkeleton": "s_gen_Conventional",
+    "numItems": 0,
+    "numOrders": 23,
+    "percDuplicates": 0,
+    "itemsPerBoxLow": 2,
+    "itemsPerBoxHigh": 3,
+    "dynamicity": {
+        "numTimeSteps": 2,
+        "percDynamic": 10
+    },
+    "mapXyHighs": [
+        80,
+        80
+    ],
+    "depotSection": {
+        "0": [
+            20,
+            5
+        ],
+        "1": [
+            50,
+            5
+        ]
+    },
+    "numSlottingZones": 2,
+    "numVehicles": 8,
+    "numItemsToMove": 0,
+    "obstaclesType": "Conventional",
+    "randomSeed": 424639,
+    "min_dist_to_slotting_zone": 30,
+    "mobileUnitCapacities": {
+        "numOrders": 3,
+        "weight": null,
+        "volume": null
+    },
+    "requestType": "storageassignment",
+    "optimizerUsed": null,
+    "path_local": "./benchmarking/tsplibfiles/1_1v4/Conventional/",
+    "path_gui_test": "./gui-test/Conventional/BO_jsons/optim/",
+    "possibleVisitLocs": null,
+    "slottingZones": [
+        {
+            "xrange": [
+                0,
+                69
+            ],
+            "yrange": [
+                0,
+                59
+            ],
+            "mid_point": [
+                32,
+                21
+            ],
+            "SKUs": [
+                "2",
+                "3",
+                "6",
+                "7",
+                "11",
+                "12",
+                "13",
+                "17",
+                "18",
+                "21",
+                "22",
+                "23",
+                "26",
+                "27",
+                "28",
+                "32",
+                "33",
+                "34",
+                "37",
+                "38",
+                "41",
+                "42",
+                "43",
+                "47",
+                "48",
+                "51",
+                "52",
+                "55",
+                "56"
+            ],
+            "num_SKUs": 0
+        },
+        {
+            "xrange": [
+                20,
+                75
+            ],
+            "yrange": [
+                5,
+                80
+            ],
+            "mid_point": [
+                70,
+                30
+            ],
+            "SKUs": [
+                "4",
+                "5",
+                "8",
+                "9",
+                "10",
+                "14",
+                "15",
+                "16",
+                "19",
+                "20",
+                "24",
+                "25",
+                "29",
+                "30",
+                "31",
+                "35",
+                "36",
+                "39",
+                "40",
+                "44",
+                "45",
+                "46",
+                "49",
+                "50",
+                "53",
+                "54"
+            ],
+            "num_SKUs": 0
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "ASSIGNMENT_OPTIONS": {
+        "assignmentType": "firstAssignment",
+        "evaluationData": "pickingLog",
+        "openLocations": "allExceptPickingLog"
+    },
+    "CAPACITIES": 7,
+    "DATA_SECTION": "",
+    "HEADER": {
+        "COMMENTS": {
+            "Best known objective": "248.141",
+            "Computational time (s)": "0.09048986434936523",
+            "descr": "Modified TSPLIB for the SLAP"
+        },
+        "VERSION": "SLAP 1.0"
+    },
+    "NAME": "c12_40c7",
+    "NUM_CAPACITIES": 1,
+    "NUM_VEHICLES": 1,
+    "NUM_VISITS": 12,
+    "ORDERS": {
+        "1": [
+            "2"
+        ],
+        "2": [
+            "3",
+            "4",
+            "5",
+            "6",
+            "7"
+        ],
+        "3": [
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13"
+        ]
+    },
+    "SKUS_TO_SLOT": [
+        "10"
+    ],
+    "TIMESTEP": "1",
+    "TIME_AVAIL_SECTION": {
+        "1": "1",
+        "2": "1",
+        "3": "1"
+    },
+    "VISIT_LOCATION_SECTION": {
+        "10": null,
+        "11": "139",
+        "12": "113",
+        "13": "16",
+        "2": "22",
+        "3": "171",
+        "4": "181",
+        "5": "98",
+        "6": "49",
+        "7": "148",
+        "8": "188",
+        "9": "64"
+    }
+}

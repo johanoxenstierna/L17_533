@@ -1,0 +1,67 @@
+{
+    "ASSIGNMENT_OPTIONS": {
+        "assignmentType": "firstAssignment",
+        "evaluationData": "pickingLog",
+        "openLocations": "allExceptPickingLog"
+    },
+    "CAPACITIES": 4,
+    "DATA_SECTION": "",
+    "HEADER": {
+        "COMMENTS": {
+            "Best known objective": "242.16",
+            "Computational time (s)": "0.1454787254333496",
+            "descr": "Modified TSPLIB for the SLAP"
+        },
+        "VERSION": "SLAP 1.0"
+    },
+    "NAME": "c15_5d95",
+    "NUM_CAPACITIES": 1,
+    "NUM_VEHICLES": 1,
+    "NUM_VISITS": 15,
+    "ORDERS": {
+        "1": [
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12"
+        ],
+        "2": [
+            "13",
+            "14",
+            "15",
+            "16"
+        ]
+    },
+    "SKUS_TO_SLOT": [
+        "2"
+    ],
+    "TIMESTEP": "1",
+    "TIME_AVAIL_SECTION": {
+        "1": "1",
+        "2": "1"
+    },
+    "VISIT_LOCATION_SECTION": {
+        "10": "40",
+        "11": "23",
+        "12": "35",
+        "13": "89",
+        "14": "109",
+        "15": "105",
+        "16": "81",
+        "2": null,
+        "3": "44",
+        "4": "14",
+        "5": "3",
+        "6": "34",
+        "7": "123",
+        "8": "80",
+        "9": "12"
+    }
+}

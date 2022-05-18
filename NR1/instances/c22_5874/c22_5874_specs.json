@@ -1,0 +1,101 @@
+{
+    "nameTsplib": "c22_5874",
+    "description": "",
+    "nameSpecsSkeleton": "s_gen_NR1",
+    "numItems": 0,
+    "numOrders": 14,
+    "percDuplicates": 0,
+    "itemsPerBoxLow": 1,
+    "itemsPerBoxHigh": 2,
+    "dynamicity": {
+        "numTimeSteps": 2,
+        "percDynamic": 10
+    },
+    "mapXyHighs": [
+        80,
+        80
+    ],
+    "depotSection": {
+        "0": [
+            70,
+            70
+        ],
+        "1": [
+            70,
+            50
+        ]
+    },
+    "numSlottingZones": 3,
+    "numVehicles": 3,
+    "numItemsToMove": 0,
+    "obstaclesType": "NR1",
+    "randomSeed": 940148,
+    "min_dist_to_slotting_zone": 30,
+    "mobileUnitCapacities": {
+        "numOrders": 6,
+        "weight": null,
+        "volume": null
+    },
+    "requestType": "storageassignment",
+    "optimizerUsed": null,
+    "path_local": "./benchmarking/tsplibfiles/1_1v4/NR1/",
+    "path_gui_test": "./gui-test/NR1/BO_jsons/optim/",
+    "possibleVisitLocs": null,
+    "slottingZones": [
+        {
+            "xrange": null,
+            "yrange": null,
+            "mid_point": [
+                30,
+                20
+            ],
+            "SKUs": [
+                "2",
+                "6",
+                "11",
+                "12",
+                "17",
+                "20",
+                "21"
+            ],
+            "num_SKUs": 0
+        },
+        {
+            "xrange": null,
+            "yrange": null,
+            "mid_point": [
+                70,
+                40
+            ],
+            "SKUs": [
+                "3",
+                "7",
+                "8",
+                "13",
+                "14",
+                "18",
+                "22",
+                "23"
+            ],
+            "num_SKUs": 0
+        },
+        {
+            "xrange": null,
+            "yrange": null,
+            "mid_point": [
+                30,
+                60
+            ],
+            "SKUs": [
+                "4",
+                "5",
+                "9",
+                "10",
+                "15",
+                "16",
+                "19"
+            ],
+            "num_SKUs": 0
+        }
+    ]
+}

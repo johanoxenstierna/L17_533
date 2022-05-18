@@ -1,0 +1,193 @@
+{
+    "nameTsplib": "c113_6023",
+    "description": "",
+    "nameSpecsSkeleton": "s_gen_Conventional",
+    "numItems": 0,
+    "numOrders": 40,
+    "percDuplicates": 0,
+    "itemsPerBoxLow": 2,
+    "itemsPerBoxHigh": 4,
+    "dynamicity": {
+        "numTimeSteps": 2,
+        "percDynamic": 10
+    },
+    "mapXyHighs": [
+        80,
+        80
+    ],
+    "depotSection": {
+        "0": [
+            20,
+            5
+        ],
+        "1": [
+            50,
+            5
+        ]
+    },
+    "numSlottingZones": 2,
+    "numVehicles": 14,
+    "numItemsToMove": 0,
+    "obstaclesType": "Conventional",
+    "randomSeed": 942115,
+    "min_dist_to_slotting_zone": 30,
+    "mobileUnitCapacities": {
+        "numOrders": 3,
+        "weight": null,
+        "volume": null
+    },
+    "requestType": "storageassignment",
+    "optimizerUsed": null,
+    "path_local": "./benchmarking/tsplibfiles/1_1v4/Conventional/",
+    "path_gui_test": "./gui-test/Conventional/BO_jsons/optim/",
+    "possibleVisitLocs": null,
+    "slottingZones": [
+        {
+            "xrange": [
+                0,
+                69
+            ],
+            "yrange": [
+                0,
+                59
+            ],
+            "mid_point": [
+                32,
+                21
+            ],
+            "SKUs": [
+                "2",
+                "3",
+                "4",
+                "8",
+                "9",
+                "10",
+                "11",
+                "14",
+                "15",
+                "19",
+                "20",
+                "24",
+                "25",
+                "26",
+                "30",
+                "31",
+                "32",
+                "33",
+                "36",
+                "37",
+                "40",
+                "41",
+                "45",
+                "46",
+                "50",
+                "51",
+                "54",
+                "55",
+                "56",
+                "61",
+                "62",
+                "63",
+                "64",
+                "67",
+                "68",
+                "69",
+                "70",
+                "73",
+                "74",
+                "75",
+                "79",
+                "80",
+                "84",
+                "85",
+                "89",
+                "90",
+                "91",
+                "92",
+                "95",
+                "96",
+                "97",
+                "100",
+                "101",
+                "102",
+                "103",
+                "108",
+                "109",
+                "110",
+                "111"
+            ],
+            "num_SKUs": 0
+        },
+        {
+            "xrange": [
+                20,
+                75
+            ],
+            "yrange": [
+                5,
+                80
+            ],
+            "mid_point": [
+                70,
+                30
+            ],
+            "SKUs": [
+                "5",
+                "6",
+                "7",
+                "12",
+                "13",
+                "16",
+                "17",
+                "18",
+                "21",
+                "22",
+                "23",
+                "27",
+                "28",
+                "29",
+                "34",
+                "35",
+                "38",
+                "39",
+                "42",
+                "43",
+                "44",
+                "47",
+                "48",
+                "49",
+                "52",
+                "53",
+                "57",
+                "58",
+                "59",
+                "60",
+                "65",
+                "66",
+                "71",
+                "72",
+                "76",
+                "77",
+                "78",
+                "81",
+                "82",
+                "83",
+                "86",
+                "87",
+                "88",
+                "93",
+                "94",
+                "98",
+                "99",
+                "104",
+                "105",
+                "106",
+                "107",
+                "112",
+                "113",
+                "114"
+            ],
+            "num_SKUs": 0
+        }
+    ]
+}
